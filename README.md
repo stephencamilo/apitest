@@ -16,4 +16,3 @@
 - Para criar e polular o banco de dados (que já foi criado pelo lando) com dados dummy execute o seguinte comando:
 - - `lando php artisan migrate:fresh && lando php artisan test`
 - - ***(Esse comando cria um teste automático que executa uma Factory usando o Faker Generator para gerar dados no banco de dados)***
-- 
