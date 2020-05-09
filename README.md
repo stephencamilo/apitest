@@ -5,7 +5,7 @@
 - - Lando é uma abstração de **DOCKER** que facilita a vida de usuários iniciantes e Devs avançados é mais fácil de usar do que o **Docker Compose**
 - Instale o [Git](https://git-scm.com/downloads) -> https://git-scm.com/downloads
 
-## Configurando o ambinte: 
+## Configurando o ambiente: 
 - Após a instalação do [Lando](https://docs.lando.dev/basics/installation.html) e do [Git](https://git-scm.com/downloads)
 - Crie uma pasta no seu diretório Documentos chamada **projetos**
 - Dentro da pasta projetos execute o comando `git clone https://github.com/stephencamilo/apitest.git`
