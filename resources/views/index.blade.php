@@ -11,7 +11,6 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/af-2.3.4/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.css" />
     <!-- Fonts -->
   </head>
 
@@ -41,40 +40,6 @@
     </div>
 
     <script src="{{ asset('js/app.js') }}"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/af-2.3.4/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.js"></script>
-
-    <script>
-      (function($) {
-        $(document).ready(function() {
-          $('#table_id').DataTable({
-            "ajax": "/api/users",
-            "responsive": true,
-            "columns": [{
-                "data": "name"
-              },
-              {
-                "data": "email"
-              },
-              {
-                "data": "logins"
-              },
-              {
-                "data": "active",
-                "render": function(data, type, row) {
-                  //console.log(data);
-                  return (data == 1) ? 'Ativo' : 'Inativo';
-                }
-              }
-            ],
-            "lengthMenu": [
-              [10, 20, 30, 50, 100],
-              [10, 20, 30, 50, 100]
-            ],
-            //"dom": 'Pfrtip'
-          });
-
-        })
-      })(jQuery);
-    </script>
+    <script src="{{ asset('js/script.js') }}"></script>
   </body>
 </html>
