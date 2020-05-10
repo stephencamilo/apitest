@@ -10,7 +10,7 @@
 - Crie uma pasta no seu diretório Documentos chamada **projetos**
 - Dentro da pasta projetos execute o comando `git clone https://github.com/stephencamilo/apitest.git`
 - Entre na pasta apitest
-- Dentro da pasta apiteste execute o comando `lando start`, aguarde o lando montar o ambiente de desenvolvomento
+- Dentro da pasta apiteste execute o comando `lando start && lando composer install`, aguarde o lando montar o ambiente de desenvolvomento
 - Apos o setup o lando te dará algumas opções de URL entre elas deve estar [http://apitest.lndo.site/](http://apitest.lndo.site/)
 - - Essa página estará vazia pois ainda não criamos dados de test no bando
 - Para criar e polular o banco de dados (que já foi criado pelo lando) com dados dummy execute o seguinte comando:
